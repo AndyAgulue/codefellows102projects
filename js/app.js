@@ -1,17 +1,22 @@
-'use strict'
-let answer = prompt ('Do you have a dog in your life?');
+'use strict' 
 
-let name = prompt ('What is your dogs name');
+function haveDog(){
+   
+}
 
-let breed = prompt ('What breed is your dog?');
+let q1 = prompt('Do you have a dog? Y/N');
+let q2 = prompt('What\'s is your dog\'s name?')
+let q3 = prompt('what\'s your dog\'s breed?')
+let q4 = prompt('What is your name?')
+
+if(q1.toLowerCase() === 'y' || q1.toLowerCase() === 'yes'){
+  response = 'Yay fellow dog lover!!!';
+ 
+}
+document.write(<h2>"Hi"</h2>)
 
 
-
-alert('Hi ' + name + ' the ' + breed);
-
-
-
-
+   
 
 
 
